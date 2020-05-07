@@ -1,0 +1,316 @@
+body {
+font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 576px) {
+  div.small-container {
+      width: 680px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  div.medium-container {
+    width: 960px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  div.large-container {
+    width: 1440px;
+    text-align: center;
+  }
+}
+
+div.hover {
+  margin: 10px
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  display: row;
+}
+
+p {
+margin-bottom: 20px;
+}
+
+.figcaption {
+  font-size: 0,5em;
+}
+
+.quote {
+  font-size: 2em;
+  font-family: 'Lora', serif;
+}
+
+.biography .row {
+  margin-top: 50px;
+
+}
+
+.bg-image {
+  background-image: url("../assets/images/bg2.png");
+  height: 500px;
+  width: cover;
+  display: row;
+}
+
+.navbar {
+  position: sticky;
+  width: inherit;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  font-variant: small-caps;
+  font-size: 1,6em;
+}
+
+.navbar-nav {
+  font-variant: small-caps;
+  text-rendering: auto;
+  font-weight: 200;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.jumbotron .display-4 {
+  padding-top: 25px;
+  margin-top: 150px;
+  color: white;
+  font-size: 4em;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: inherit;
+}
+
+.jumbotron .display-5 {
+  padding-top: 0px;
+  color: black;
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: 800;
+  text-align: left;
+}
+
+p.lead {
+text-align: left;
+max-width: 1000px;
+text-color: lightgrey;
+}
+
+
+.col-sm-6 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  text-align: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: white;
+  text-align: center;
+  font-size: 2,8em;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 400;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid blue; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0px; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: lightblue }
+}
+
+.biography img {
+  padding-right: 30px;
+}
+
+.social-network ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-network li {
+  display: inline;
+  padding-right: 20px;
+  font-size: 2em;
+}
+
+footer
+{
+    text-align:center;
+    margin-top: 100px;
+    bottom:0;
+    width:100%;
+    vertical-align:top;
+    display: inline-block;
+    font-size:13px;
+}
+
+.h1 .display4  {
+
+}
+
+.article .container{
+padding-right: 0;
+}
+
+.article .img-fluid {
+margin: auto;
+width: cover;
+max-height: 1600;
+}
+
+.card-title
+{
+  font-weight: 800;
+  text-align: center;
+}
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-1 img {
+  width: 105%;
+  position: absolute;
+  color: white;
+  top: 0;
+  left: -5%;
+  transition: all 0.3s;
+}
+
+.hover-1-content {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
+}
+
+.hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  color: white;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+  bottom: 2rem;
+  color: white;
+}
+
+.hover-1:hover .hover-1-description {
+  opacity: 1;
+  transform: none;
+  color: white;
+}
+
+.hover-1:hover img {
+  left: 0;
+  color: white;
+}
+
+.hover-1:hover .hover-overlay {
+  opacity: 0;
+}
+
+/* DEMO 5 ============================== */
+.hover-5::after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #7E4FA6;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: block;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.hover-5 .hover-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hover-5-title {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  transition: all 0.3s;
+  padding: 2rem ;
+  z-index: 99;
+}
+
+.hover-5-title span {
+  transition: all 0.4s;
+  opacity: 0;
+  color: #7E4FA6;
+}
+
+.hover-5:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.hover-5:hover .hover-5-title {
+  bottom: 0;
+}
+
+.hover-5:hover .hover-5-title span {
+  opacity: 1;
+}
+
+.hover-5:hover::after {
+  bottom: 0;
+}
