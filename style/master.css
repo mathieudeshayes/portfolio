@@ -50,9 +50,11 @@ margin-bottom: 20px;
 }
 
 .bg-image {
-  background-image: url("../assets/images/bg2.png");
+  background-image: url("/assets/images/bg2.png");
   height: 500px;
   width: cover;
+  border: 5px;
+  border-color: #fff;
   display: row;
 }
 
@@ -111,7 +113,13 @@ text-color: lightgrey;
   text-align: center;
 }
 
+@media only screen and (min-width: 576px) {
+.typewriter h1 {
+    width: 960px;
+    text-align: center;
+
 /* DEMO-SPECIFIC STYLES */
+
 .typewriter h1 {
   color: white;
   text-align: center;
@@ -271,7 +279,7 @@ max-height: 1600;
   content: '';
   width: 100%;
   height: 10px;
-  background: #7E4FA6;
+  background: #47c650;
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -289,14 +297,14 @@ max-height: 1600;
   bottom: 1rem;
   left: 0;
   transition: all 0.3s;
-  padding: 2rem ;
+  padding: 2rem 3rem;
   z-index: 99;
 }
 
 .hover-5-title span {
   transition: all 0.4s;
   opacity: 0;
-  color: #7E4FA6;
+  color: #47c650;
 }
 
 .hover-5:hover .hover-overlay {
@@ -314,3 +322,5 @@ max-height: 1600;
 .hover-5:hover::after {
   bottom: 0;
 }
+
+/*
