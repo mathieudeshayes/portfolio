@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32147",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -719,6 +727,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/js/blackisscript.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/blackisscript-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/assets/js/bootstrap.bundle.js": {
 		"bF": 0,
 		"ft": 64,
@@ -828,6 +847,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/Contact.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -842,6 +869,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/index2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index2.html",
 		"oF": 0
 		},
 	"/Mathieu Deshayes - UXUI Designer_files/bootstrap.min.css": {

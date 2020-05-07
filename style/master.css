@@ -28,7 +28,6 @@ div.hover {
 
 h2 {
   font-family: 'Merriweather', serif;
-  display: row;
 }
 
 p {
@@ -36,7 +35,7 @@ margin-bottom: 20px;
 }
 
 .figcaption {
-  font-size: 0,5em;
+  font-size: 0.5em;
 }
 
 .quote {
@@ -54,8 +53,6 @@ margin-bottom: 20px;
   height: 500px;
   width: cover;
   border: 5px;
-  border-color: #fff;
-  display: row;
 }
 
 .navbar {
@@ -100,8 +97,6 @@ margin-bottom: 20px;
 
 p.lead {
 text-align: left;
-max-width: 1000px;
-text-color: lightgrey;
 }
 
 
@@ -111,41 +106,6 @@ text-color: lightgrey;
 
 .btn {
   text-align: center;
-}
-
-@media only screen and (min-width: 576px) {
-.typewriter h1 {
-    width: 960px;
-    text-align: center;
-
-/* DEMO-SPECIFIC STYLES */
-
-.typewriter h1 {
-  color: white;
-  text-align: center;
-  font-size: 2,8em;
-  font-family: 'Montserrat' sans-serif;
-  font-weight: 400;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .1em solid blue; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0px; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: lightblue }
 }
 
 .biography img {
@@ -322,5 +282,3 @@ max-height: 1600;
 .hover-5:hover::after {
   bottom: 0;
 }
-
-/*
